@@ -105,7 +105,7 @@ The generated file `output/predictions.csv` contains 30 records structured as fo
 
 | Column | Data Type | Description |
 | :--- | :--- | :--- |
-| `customer_ID` | `string` | Unique customer reference identifier (`CUST-0701` to `CUST-0730`) |
+| `customer_id` | `string` | Unique customer reference identifier (`CUST-0701` to `CUST-0730`) |
 | `purchase_probability` | `float` | Predicted probability of purchase (0.0000 to 1.0000) |
 | `predicted_purchase` | `integer` | Binary prediction label using tuned threshold `0.4236` (`0` = Not Purchase, `1` = Purchase) |
 
