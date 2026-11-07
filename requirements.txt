@@ -3,4 +3,3 @@ scikit-learn
 matplotlib
 jupyter
 joblib
-pathlib
